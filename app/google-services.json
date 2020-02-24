@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "35491557581",
+    "firebase_url": "https://sumika-1e8bd.firebaseio.com",
+    "project_id": "sumika-1e8bd",
+    "storage_bucket": "sumika-1e8bd.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:35491557581:android:ec0c3c2e44253dad",
+        "android_client_info": {
+          "package_name": "com.example.itay.sumika"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "35491557581-41vmrl3d80ct67gcnv1kqc7oc0g7lsme.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.itay.sumika",
+            "certificate_hash": "605918c8e801b6338ef3bf1e9a84ccf598b0940b"
+          }
+        },
+        {
+          "client_id": "35491557581-rccue3k28f8k85b7ed917897me15h0l8.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDchRLVFThVUBsTCfdmX6N7LKTwt_50oEw"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "35491557581-rccue3k28f8k85b7ed917897me15h0l8.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/homebackground"
+    android:theme="@style/Theme.AppCompat.Light"
+    tools:context="com.example.itay.sumika.MainActivity"
+    tools:layout_editor_absoluteY="25dp">
+
+    <Button
+        android:id="@+id/buttonVsComp"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_marginBottom="16dp"
+        android:layout_marginLeft="56dp"
+        android:layout_marginRight="56dp"
+        android:background="@drawable/menu_button"
+        android:text="@string/vsComp"
+        android:textColor="@color/black"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:typeface="monospace"
+        app:layout_constraintBottom_toTopOf="@+id/buttonVsFriend"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent" />
+
+    <Button
+        android:id="@+id/buttonVsFriend"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_marginBottom="24dp"
+        android:layout_marginLeft="56dp"
+        android:layout_marginRight="56dp"
+        android:width="120dp"
+        android:height="60dp"
+        android:background="@drawable/menu_button"
+        android:text="@string/vsPlayer"
+        android:textColor="@color/black"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:typeface="monospace"
+        app:layout_constraintBottom_toTopOf="@+id/practice"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent" />
+
+    <Button
+        android:id="@+id/practice"
+        android:layout_width="match_parent"
+        android:layout_height="56dp"
+        android:layout_marginBottom="40dp"
+        android:layout_marginLeft="56dp"
+        android:layout_marginRight="56dp"
+        android:width="120dp"
+        android:height="60dp"
+        android:background="@drawable/menu_button_pink"
+        android:text="@string/practice"
+        android:textColor="@color/black"
+        android:textSize="20sp"
+        android:typeface="monospace"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="match_parent"
+        android:layout_height="101dp"
+        android:layout_marginBottom="8dp"
+        android:layout_marginLeft="40dp"
+        android:layout_marginRight="40dp"
+        app:layout_constraintBottom_toTopOf="@+id/buttonVsComp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:srcCompat="@drawable/title_pic" />
+
+    <ImageView
+        android:id="@+id/imageViewGame"
+        android:layout_width="wrap_content"
+        android:layout_height="0dp"
+        android:layout_marginBottom="16dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="16dp"
+        android:adjustViewBounds="true"
+        android:scaleType="centerInside"
+        app:layout_constraintBottom_toTopOf="@+id/numOfSqure"
+        app:layout_constraintEnd_toStartOf="@+id/buttonSpaceing"
+        app:layout_constraintStart_toEndOf="@+id/buttonTimer"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/image3on3" />
+
+    <Button
+        android:id="@+id/rightArrowButton"
+        android:layout_width="41dp"
+        android:layout_height="46dp"
+        android:layout_marginBottom="14dp"
+        android:layout_marginStart="6dp"
+        android:background="@drawable/arrow_right"
+        android:text=""
+        app:layout_constraintBottom_toTopOf="@+id/imageView"
+        app:layout_constraintStart_toEndOf="@+id/numOfSqure" />
+
+    <TextView
+        android:id="@+id/numOfSqure"
+        android:layout_width="94dp"
+        android:layout_height="41dp"
+        android:layout_marginBottom="16dp"
+        android:gravity="center"
+        android:text="3 X 3"
+        android:textColor="@color/black"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/imageView"
+        app:layout_constraintEnd_toEndOf="@+id/imageViewGame"
+        app:layout_constraintStart_toStartOf="@+id/imageViewGame" />
+
+    <Button
+        android:id="@+id/leftArrowButton"
+        android:layout_width="41dp"
+        android:layout_height="46dp"
+        android:layout_marginBottom="14dp"
+        android:layout_marginEnd="6dp"
+        android:background="@drawable/arrow_left"
+        android:text=""
+        app:layout_constraintBottom_toTopOf="@+id/imageView"
+        app:layout_constraintEnd_toStartOf="@+id/numOfSqure" />
+
+    <Button
+        android:id="@+id/buttonTimer"
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="16dp"
+        android:background="@drawable/stopwatch_off"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/buttonSpaceing"
+        android:layout_width="50dp"
+        android:layout_height="46dp"
+        android:layout_marginEnd="19dp"
+        android:layout_marginTop="32dp"
+        android:background="@drawable/spacing1"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <com.example.itay.sumika.SquareImageView
+        android:id="@+id/info"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="16dp"
+        android:layout_marginEnd="12dp"
+        android:layout_marginStart="12dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/practice"
+        app:srcCompat="@drawable/info" />
+
+</android.support.constraint.ConstraintLayout>

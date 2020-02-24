@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#0b0b0b</color>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="buttonColor">#E3E3E3</color>
+    <color name="buttonsBackround">#95e3e3e3</color>
+    <color name="blueSqure_even">#538DE6</color>
+    <color name="pinkSqure_uneven">#B85BCB</color>
+    <color name="white">#ffffff</color>
+    <color name="background">#e0e0ea</color>
+
+</resources>

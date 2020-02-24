@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">סומיקה</string>
+    <string name="title_activity_game">דף משחק</string>
+    <string name="title_activity_game16">דף משחק 16</string>
+    <string name="title_activity_game25">דף משחק 25</string>
+    <string name="title_activity_credits">דף משחק 36</string>
+    <string name="title_activity_info">הסבר</string>
+
+
+    <string name="vsComp">נגד המחשב</string>
+    <string name="vsPlayer">נגד שחקן נוסף</string>
+    <string name="practice">אימון</string>
+    <string name="titleDialog">בחר רמת משחק</string>
+    <string name="mediun_level">בינוני</string>
+    <string name="easy_level">קל</string>
+    <string name="hard_level">קשה</string>
+    <string name="single_player_announce">הגעת למספר</string>
+    <string name="two_plater_announce1">שחקן </string>
+    <string name="two_plater_announce2"> ניצח!</string>
+
+
+</resources>

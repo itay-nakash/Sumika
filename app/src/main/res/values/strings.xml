@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name">Sumika</string>
+    <string name="title_activity_game">GameActivity</string>
+    <string name="title_activity_game16">GameActivity16</string>
+    <string name="title_activity_game25">GameActivity25</string>
+    <string name="title_activity_credits">Credits</string>
+
+    <string name="vsComp">Vs Computer</string>
+    <string name="vsPlayer">Vs Player</string>
+    <string name="titleDialog">Choose computer level</string>
+    <string name="title_activity_info">InfoActivity</string>
+    <string name="practice">Practice</string>
+    <string name="mediun_level">Medium</string>
+    <string name="easy_level">Easy</string>
+    <string name="hard_level">Hard</string>
+    <string name="single_player_announce">You reach the number </string>
+    <string name="two_plater_announce1">Player </string>
+    <string name="two_plater_announce2"> won!</string>
+
+
+</resources>
