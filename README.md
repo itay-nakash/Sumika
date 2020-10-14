@@ -20,4 +20,4 @@ You can choose the difficulty when playing against the computer:
 ![rsz_62426450-c62f3e00-b6ed-11e9-8f90-079627b5cadd](https://user-images.githubusercontent.com/61385424/95990812-a4266500-0e34-11eb-8457-c54bcef8efdf.png)
 
 # Sumika AI:
-The computer AI comes in 3 different levels, based on miniMax algorithm
+The computer AI comes in 3 different levels, based on MiniMax algorithm
