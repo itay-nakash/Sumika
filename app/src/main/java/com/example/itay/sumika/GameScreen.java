@@ -6,9 +6,7 @@ import android.widget.GridView;
 import android.widget.ImageView;
 import android.widget.TextView;
 
-/**
- * Created by itay on 10/12/17.
- */
+
 
 /**
  * class that takes care for the screen. ImageViews, boards and more.
