@@ -10,9 +10,6 @@ import android.view.ViewGroup;
 import android.widget.BaseAdapter;
 import android.widget.Button;
 
-/**
- * Created by itay on 8/11/17.
- */
 
 public class GridViewAdapter extends BaseAdapter {
 
