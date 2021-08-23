@@ -4,12 +4,12 @@ Sumika is a puzzal game invented by Mika Zeav and powered by Itay Nakash
 
 
 # Instructions:
-Each player, in his turn tries to add another squre.
-The main rule is that you need to keep 1(/2/3) squres distance from the last squre that was added:
+Each player, in his turn try to add another square.
+The main rule is that you need to keep 1(/2/3) squares distance from the last square that was added:
 
 ![rsz_62426406-25408300-b6ed-11e9-998c-96d5722d8a28_1](https://user-images.githubusercontent.com/61385424/95990721-8c4ee100-0e34-11eb-83b8-5b6fde640dad.png)
 
-The winner is the player that put the last squre.
+The winner is the player that put the last square.
 
 In the menu you can choose how much distance your going to need to keep, if you want to play against the computer, a friend or just to practice against yourself
 
