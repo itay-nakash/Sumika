@@ -7,6 +7,7 @@ Sumika is a puzzal game invented by Mika Zeav and powered by Itay Nakash
 Each player, in his turn try to add another square.
 The player can only add square that is in k distance from the last square that was added:
 (here is an example for k=1)
+
 ![rsz_62426406-25408300-b6ed-11e9-998c-96d5722d8a28_1](https://user-images.githubusercontent.com/61385424/95990721-8c4ee100-0e34-11eb-83b8-5b6fde640dad.png)
 
 The winner is the player that added the last square.
